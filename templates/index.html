@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>URL Safety Checker</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>URL Safety Checker</h1>
+        <p>Enter a URL to check its safety rating using Google Safe Browsing and VirusTotal APIs.</p>
+        
+        <input type="text" id="urlInput" placeholder="https://example.com" />
+        <button onclick="checkUrl()">Check URL</button>
+        
+        <div id="result"></div>
+        
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+    </body>
+    </html>
