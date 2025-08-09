@@ -4,8 +4,8 @@ import re
 
 
 # Environment variables for API keys
-VIRUSTOTAL_KEY = os.environ.get("VT_KEY")
-GSB_KEY = os.environ.get("GSB_KEY")
+VIRUSTOTAL_KEY = "06986dbaff4f2d5aee335a1bc0a2e2dd66db169f6442db6f36f3ed9efdc11336"
+GSB_KEY = "AIzaSyBUIqRu3xZf2pMTB_qtuLL6FDXpHqUxy4k"
 
 def validate_url(url):
     """Basic URL validation and normalization"""

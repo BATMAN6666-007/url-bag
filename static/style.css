@@ -1,9 +1,13 @@
 body { 
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 800px; 
     margin: 50px auto; 
     padding: 20px; 
+    background: url("background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
+
 
 input[type="text"] { 
     width: 60%;
@@ -20,6 +24,7 @@ button{
 .result { 
     margin-top: 20px;
     padding: 15px;
+    color:rgb(0, 0, 0);
     border-radius: 5px; 
 }
 
