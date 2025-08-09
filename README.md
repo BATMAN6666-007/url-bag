@@ -35,6 +35,7 @@ git clone https://github.com/BATMAN6666-007/url-bag
 
 # Run
 python3 app.py
+aswinrd.pythonanywhere.com
 
 
 # Screenshots (Add at least 3)
